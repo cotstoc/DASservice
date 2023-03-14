@@ -6,7 +6,6 @@
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
-  
 }
 
 :root {
@@ -160,7 +159,7 @@ body {
 /* SERVICIO  */
 
 .imgContainer {
-  padding-top: 80px;
+  padding-top: 50px;
   background: #efefef;
   text-align: center;
 }
@@ -174,13 +173,14 @@ body {
 
 .imgContainer2 {
   background: #efefef;
-  height: 730px;
+  height: 680px;
   text-align: center;
   margin-top: -6px ;
+  padding-top: 50px;
 }
 
 .imgMain2 {
-  padding-top: 15px;
+  padding-top: 5px;
   width: 60%;
 }
 
@@ -191,7 +191,7 @@ body {
 
 .serviceTitle {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 20px;
   font-size: 40px;
 }
 
@@ -353,14 +353,25 @@ body {
 
   /* SERVICIO  */
 
+  .info {
+    font-size: 15px;
+    padding: 5px
+  }
+
+  div.pcontainer {
+    padding: 5px;
+    padding-bottom: 15px;
+  }
+
+  div.container  {
+    padding: 5px;
+    
+  }
+
   .imgContainer {
   background: #efefef;
   text-align: center;
   margin-top: -80px;
-  }
-
-  .info2 {
-  font-size: 20px;
   }
 
   .imgContainer2 {
@@ -386,7 +397,6 @@ body {
 
   .serviceTitle2 {
   text-align: center;
-  
   font-size: 15px
   }
   /* FOOTER */
